@@ -5,12 +5,14 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'resources.premierleague.com',
-        pathname: '/premierleague/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'upload.wikimedia.org',
       },
       {
         protocol: 'https',
         hostname: 'images.unsplash.com',
-        pathname: '/**',
       },
     ],
   },
